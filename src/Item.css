@@ -1,0 +1,49 @@
+.item {
+    height: 100vh;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    scroll-snap-align: start;
+}
+
+.item_container {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_text {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: #393c41;
+    align-items: center;
+    flex: 1;
+}
+
+.item_textdesc {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.iten_lower {
+    display: flex;
+    margin-bottom: 5px;
+    flex-direction: column;
+}
+
+.item_buttons {
+    display: flex;
+}
+
+.items_expand {
+    color: black;
+    width: 100%;
+    margin-top: 3%;
+    justify-content: center;
+}

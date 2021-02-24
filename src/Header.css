@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    background-color: transparent;
+    background: none;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    margin: 15px;
+    margin-top: 15px;
+    z-index: 100;
+}
+
+.header_logo_tesla {
+    height: 35px;
+    object-fit: contain;
+}
+
+.header_logo {
+    height: 24px;
+    width: 60px;
+}
+
+.header_center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header_center>p {
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.header_right {
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+}
+
+.header_right>p {
+    margin: 10px;
+}
